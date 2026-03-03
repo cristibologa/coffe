@@ -1,0 +1,56 @@
+.header{
+	height: 30vh;
+	background-image: linear-gradient(-45deg, #131313, #313131);
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	padding-top: 30px;
+	position: relative;
+
+}
+.header-top{
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 35px;
+	color: #fff;
+	width: 100%;
+	
+}
+span{
+	font-size: 40px;
+}
+
+.input-top{
+	width: 70%;
+	height: 45px;
+	border-radius: 10px;
+	font-size: 20px;
+
+}
+
+.promo{
+	color: #fff;
+	width: 70%;
+	background-image:url(../../../public/promo.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 32px;
+	padding-left: 35px;
+	padding-block: 20px;
+	border-radius: 15px;
+	height: 60%;
+	position: absolute; 
+	top: 70%;
+
+}
+
+.promo__top{
+	font-size: 18px;
+	background-color: #ED5151;
+	padding: 15px;
+	border-radius: 10px;
+	
+
+}
