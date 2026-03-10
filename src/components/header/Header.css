@@ -36,13 +36,15 @@ span{
 	background-image:url(../../../public/promo.png) ;
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-size: 32px;
+	font-size: 40px;
 	padding-left: 35px;
 	padding-block: 20px;
 	border-radius: 15px;
 	height: 60%;
 	position: absolute; 
 	top: 70%;
+	line-height: 1.3;
+	
 
 }
 
