@@ -1,11 +1,27 @@
 function Menu() {
   return (
     <nav className="menu">
-      <ul className="munu__list">
-        <li className="munu__item">
-          <a className="munu__link" href="">
-            1
-          </a>
+      <ul className="menu__list">
+        <li className="menu__item">
+          <button className="menu__button menu__button-accent" href="">
+            Cappuccino
+          </button>
+        </li>
+        <li className="menu__item">
+          <button className="menu__button" href="">
+            Machiato
+          </button>
+        </li>
+
+        <li className="menu__item">
+          <button className="menu__button" href="">
+            Latte
+          </button>
+        </li>
+        <li className="menu__item">
+          <button className="menu__button" href="">
+            Americano
+          </button>
         </li>
       </ul>
     </nav>
